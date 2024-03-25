@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "gestao-clientes",
+  "version": "1.0.0",
+  "description": "Projeto para gestão de clientes",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node --watch --experimental-modules src/app.js",
+    "test": "node --test src/**/*.test.js"
+  },
+  "author": "Miguel Costa",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

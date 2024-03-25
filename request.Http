@@ -1,0 +1,14 @@
+PUT http://localhost:3002/clientes/7d4d6ccd-2b13-4e69-8381-b26ccb2b1a1c
+Content-Type: application/json
+
+{ 
+  "name": "Cliente Do Bom",
+  "email": "dubom@gmail.com",
+  "phone": "2156447895"
+} 
+
+###
+
+GET http://localhost:3002/clientes
+
+
